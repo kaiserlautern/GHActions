@@ -13,5 +13,5 @@ jobs:
             with: 
               who-to-greet: César
           - name: hello-world-output
-            run: echo "{{steps.helloworld.outputs.time}}"
+            run: echo "${{steps.helloworld.outputs.time}}"
             
