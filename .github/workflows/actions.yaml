@@ -10,8 +10,8 @@ jobs:
           - name: hello-world
             id: helloworld
             uses: actions/hello-world-docker-action@v1
-              with: 
-                who-to-greet: César
+            with: 
+              who-to-greet: César
           - name: hello-world-output
             run: echo "{{steps.helloworld.outputs.time}}"
             
