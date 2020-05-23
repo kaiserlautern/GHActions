@@ -3,12 +3,6 @@ on:
   push:
     branches:
         - master
-        - feature/**
-        - '!feature/featC'
-    tags:
-        - v[12].[0-9]+.[0-9]+
-    paths:
-        - '**.js?'
 jobs:
     run-github-actions:
         runs-on: ubuntu-latest
