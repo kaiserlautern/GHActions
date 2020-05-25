@@ -19,6 +19,6 @@ jobs:
               run: |
                   node -v
                   cat /etc/os-release
-                  echo ${{github}}
+                  echo "GITHUB_ACTOR: ${GITHUB_ACTOR}"
 
 
